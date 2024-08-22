@@ -1,47 +1,46 @@
 ---
 title: |-
-  On the Surgical Removal of \
-  Cardassian Cranial Implants
-subtitle: A case study of a Cardassian patient
-short-title: Cranial Implants
-published: "Under review at *Starfleet Medical Journal*"
+  This is an Example
+subtitle: Example
+short-title: Ex
+published: "Under review at *Hello There*"
 code-repo: "Access the code, data, and analysis at <https://git.starfleet.ufp/bashir/cranial-implants>"
 correspondence-prefix: "Correspondence concerning this article should be addressed to"
 author:
-  - name: Julian Bashir
-    email: jbashir@starfleet.ufp
-    orcid: 0000-0002-3948-3914
-    title: Chief Medical Officer
+  - name: Hussain Hadah
+    email: hhadah@tulane.edu
+    orcid: 0000-0002-8705-6386
+    title: Postdoctoral fellow
     affiliations: 
-      - id: ds9
-        name: Starbase Deep Space Nine
-        department: Sick Bay
-        address: 1234 Main Street
-        city: Anytown
-        region: NY
+      - id: hhadah
+        name: Tulane University
+        department: Economics and Murphy Institute
+        address: 6823 St. Charles Avenue
+        city: New Orleans
+        region: LA
         country: USA
-        postal-code: 90210
+        postal-code: 70118
     attributes:
       corresponding: true
-  - name: Elim Garak
-    email: tailor.spy@obsidianorder.card.gov
-    title: Shopkeeper and Tailor
-    affiliations:
-      - id: terok
-        name: Terok Nor
-        department: Promenade
-      - ref: ds9
+  # - name: Elim Garak
+  #   email: tailor.spy@obsidianorder.card.gov
+  #   title: Shopkeeper and Tailor
+  #   affiliations:
+  #     - id: terok
+  #       name: Terok Nor
+  #       department: Promenade
+  #     - ref: ds9
 abstract: |
-  Space: the final frontier. These are the voyages of the starship *Enterprise*. Its continuing mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no one has gone before!
+  Let's see what will happen
 thanks: |-
   Placeholder text generated at <https://vlad-saling.github.io/star-trek-ipsum/>.
 additional-info: |-
   We have no known conflict of interest to disclose.
 keywords:
-  - surgery
-  - espionage
-  - brains
-date: August 24, 2022
+  - Hell
+  - Is
+  - Hot
+date: August 24, 2025
 epigraph:
   - text: War is good for business. 
     source: Ferengi Rule of Acquisition 34
@@ -118,6 +117,7 @@ omnis dolor repellendus.
 1. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae 
 2. sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, 
 3. ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+
 
 ::: {.content-visible when-meta="endnotes"}
 ```{=latex}
