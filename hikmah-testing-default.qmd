@@ -1,7 +1,7 @@
 ---
 title: |-
-  This is an Example
-subtitle: Example
+  The Effect of Anti-Asian Attitudes on Asian Identity in the U.S.
+subtitle: Anti-Asian Bias
 short-title: Ex
 published: "Under review at *Hello There*"
 code-repo: "Access the code, data, and analysis at <https://git.starfleet.ufp/bashir/cranial-implants>"
@@ -118,6 +118,31 @@ omnis dolor repellendus.
 2. sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, 
 3. ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
 
+```{r}
+#| label: tbl-star-trek-characters
+#| tbl-cap: "Main Characters from Star Trek: Deep Space Nine"
+#| echo: false
+
+library(knitr)
+library(kableExtra)
+
+star_trek_chars <- data.frame(
+  Name = c("Benjamin Sisko", "Kira Nerys", "Odo", "Jadzia Dax", "Julian Bashir"),
+  Rank = c("Captain", "Colonel", "Constable", "Lieutenant", "Chief Medical Officer"),
+  Species = c("Human", "Bajoran", "Changeling", "Trill", "Human"),
+  Key_trait = c("Emissary of the Prophets", "Former resistance fighter", "Shapeshifter", "Joined with symbiont", "Genetically enhanced")
+)
+
+if (knitr::is_latex_output()) {
+  kable(star_trek_chars, format = "latex", booktabs = TRUE, align = c('l', 'l', 'l', 'l')) %>%
+    kable_styling(latex_options = c("striped", "hold_position"), full_width = FALSE)
+} else if (knitr::is_html_output()) {
+  kable(star_trek_chars, format = "html", align = c('l', 'l', 'l', 'l')) %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = FALSE)
+} else {
+  kable(star_trek_chars, format = "pipe", align = c('l', 'l', 'l', 'l'))
+}
+```
 
 ::: {.content-visible when-meta="endnotes"}
 ```{=latex}

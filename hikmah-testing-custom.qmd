@@ -49,6 +49,7 @@ epigraph:
     source: Ferengi Rule of Aquisition 35
 bibliography: references.bib
 format:
+  # Academic PDF format
   hikmah-pdf:
     # Custom fonts
     # mainfont: "Linux Libertine O"
@@ -69,6 +70,11 @@ format:
       - autolang=hyphen
       - isbn=false
       - uniquename=false
+  
+  # Academic HTML format
+  hikmah-html: default
+  
+  # Manuscript PDF format (APA-style)
   hikmah-manuscript-pdf: 
     # APA-related things
     left-aligned: true  # Disable justification
@@ -90,6 +96,12 @@ format:
       - autolang=hyphen
       - isbn=false
       - uniquename=false
+  
+  # Manuscript Word format
+  hikmah-manuscript-docx: default
+  
+  # Manuscript OpenDocument format
+  hikmah-manuscript-odt: default
 ---
 
 We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times [@Lovelace:1842]. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
