@@ -1,51 +1,47 @@
 ---
 title: |-
-  The Effect of Anti-Asian Attitudes on Asian Identity in the U.S.
-subtitle: Anti-Asian Bias
-short-title: Ex
-published: "Under review at *Hello There*"
+  On the Surgical Removal of \
+  Cardassian Cranial Implants
+subtitle: A case study of a Cardassian patient
+short-title: Cranial Implants
+published: "Under review at *Starfleet Medical Journal*"
 code-repo: "Access the code, data, and analysis at <https://git.starfleet.ufp/bashir/cranial-implants>"
 correspondence-prefix: "Correspondence concerning this article should be addressed to"
 author:
-  - name: Hussain Hadah
-    email: hhadah@tulane.edu
-    orcid: 0000-0002-8705-6386
-    title: Postdoctoral fellow
+  - name: Julian Bashir
+    email: jbashir@starfleet.ufp
+    orcid: 0000-0002-3948-3914
+    title: Chief Medical Officer
     affiliations: 
-      - id: hhadah
-        name: Tulane University
-        department: Economics and Murphy Institute
-        address: 6823 St. Charles Avenue
-        city: New Orleans
-        region: LA
+      - id: ds9
+        name: Starbase Deep Space Nine
+        department: Sick Bay
+        address: 1234 Main Street
+        city: Anytown
+        region: NY
         country: USA
-        postal-code: 70118
+        postal-code: 90210
     attributes:
       corresponding: true
-  # - name: Elim Garak
-  #   email: tailor.spy@obsidianorder.card.gov
-  #   title: Shopkeeper and Tailor
-  #   affiliations:
-  #     - id: terok
-  #       name: Terok Nor
-  #       department: Promenade
-  #     - ref: ds9
+  - name: Elim Garak
+    email: tailor.spy@obsidianorder.card.gov
+    title: Shopkeeper and Tailor
+    affiliations:
+      - id: terok
+        name: Terok Nor
+        department: Promenade
+      - ref: ds9
 abstract: |
-  Let's see what will happen
+  Space: the final frontier. These are the voyages of the starship *Enterprise*. Its continuing mission: to explore strange new worlds. To seek out new life and new civilizations. To boldly go where no one has gone before!
 thanks: |-
   Placeholder text generated at <https://vlad-saling.github.io/star-trek-ipsum/>.
 additional-info: |-
   We have no known conflict of interest to disclose.
 keywords:
-  - Hell
-  - Is
-  - Hot
-date: August 24, 2025
-epigraph:
-  - text: War is good for business. 
-    source: Ferengi Rule of Acquisition 34
-  - text: Peace is good for business. 
-    source: Ferengi Rule of Acquisition 35
+  - surgery
+  - espionage
+  - brains
+date: August 24, 2022
 bibliography: references.bib
 format:
   hikmah-pdf: default
@@ -117,32 +113,6 @@ omnis dolor repellendus.
 1. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae 
 2. sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, 
 3. ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-
-```{r}
-#| label: tbl-star-trek-characters
-#| tbl-cap: "Main Characters from Star Trek: Deep Space Nine"
-#| echo: false
-
-library(knitr)
-library(kableExtra)
-
-star_trek_chars <- data.frame(
-  Name = c("Benjamin Sisko", "Kira Nerys", "Odo", "Jadzia Dax", "Julian Bashir"),
-  Rank = c("Captain", "Colonel", "Constable", "Lieutenant", "Chief Medical Officer"),
-  Species = c("Human", "Bajoran", "Changeling", "Trill", "Human"),
-  Key_trait = c("Emissary of the Prophets", "Former resistance fighter", "Shapeshifter", "Joined with symbiont", "Genetically enhanced")
-)
-
-if (knitr::is_latex_output()) {
-  kable(star_trek_chars, format = "latex", booktabs = TRUE, align = c('l', 'l', 'l', 'l')) %>%
-    kable_styling(latex_options = c("striped", "hold_position"), full_width = FALSE)
-} else if (knitr::is_html_output()) {
-  kable(star_trek_chars, format = "html", align = c('l', 'l', 'l', 'l')) %>%
-    kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = FALSE)
-} else {
-  kable(star_trek_chars, format = "pipe", align = c('l', 'l', 'l', 'l'))
-}
-```
 
 ::: {.content-visible when-meta="endnotes"}
 ```{=latex}
