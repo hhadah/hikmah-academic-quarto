@@ -1,0 +1,159 @@
+---
+title: |-
+  The Effect of Anti-Asian Attitudes on Asian Identity in the U.S.
+subtitle: Anti-Asian Bias
+short-title: Ex
+published: "Under review at *Hello There*"
+code-repo: "Access the code, data, and analysis at <https://git.starfleet.ufp/bashir/cranial-implants>"
+correspondence-prefix: "Correspondence concerning this article should be addressed to"
+author:
+  - name: Hussain Hadah
+    email: hhadah@tulane.edu
+    orcid: 0000-0002-8705-6386
+    title: Postdoctoral fellow
+    affiliations: 
+      - id: hhadah
+        name: Tulane University
+        department: Economics and Murphy Institute
+        address: 6823 St. Charles Avenue
+        city: New Orleans
+        region: LA
+        country: USA
+        postal-code: 70118
+    attributes:
+      corresponding: true
+  # - name: Elim Garak
+  #   email: tailor.spy@obsidianorder.card.gov
+  #   title: Shopkeeper and Tailor
+  #   affiliations:
+  #     - id: terok
+  #       name: Terok Nor
+  #       department: Promenade
+  #     - ref: ds9
+abstract: |
+  Let's see what will happen
+thanks: |-
+  Placeholder text generated at <https://vlad-saling.github.io/star-trek-ipsum/>.
+additional-info: |-
+  We have no known conflict of interest to disclose.
+keywords:
+  - Hell
+  - Is
+  - Hot
+date: August 24, 2025
+epigraph:
+  - text: War is good for business. 
+    source: Ferengi Rule of Acquisition 34
+  - text: Peace is good for business. 
+    source: Ferengi Rule of Acquisition 35
+bibliography: references.bib
+format:
+  hikmah-pdf: default
+  hikmah-manuscript-docx: default
+  hikmah-manuscript-odt: default
+  hikmah-manuscript-pdf: default
+---
+
+We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times [@Lovelace:1842]. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
+
+# Main section
+
+It indicates a synchronic distortion in the areas emanating triolic waves. The cerebellum, the cerebral cortex, the brain stem,  the entire nervous system has been depleted of electrochemical energy [@Turing:1936]. 
+
+```{r}
+n_lights <- 2 + 2
+n_lights
+```
+
+Any device like that would produce high levels of triolic waves. These walls have undergone some kind of selective molecular polarization. I haven't determined if our phaser energy can generate a stable field. We could alter the photons with phase discriminators.
+
+$$
+y = \text{Something} + \beta_1 x_1
+$$
+
+## Subsection
+
+Communication is not possible [@Keynes:1937]. The shuttle has no power (see @fig-n-lights). 
+
+Using the gravitational pull of a star to slingshot back in time? We are going to Starbase Montgomery for Engineering consultations prompted by minor read-out anomalies. Probes have recorded unusual levels of geological activity in all five planetary systems. 
+
+Assemble a team. Look at records of the Drema quadrant. Would these scans detect artificial transmissions as well as natural signals?
+
+```{r plot-n-lights}
+#| echo: false
+#| label: fig-n-lights
+#| fig-cap: There are four lights
+#| fig-width: 5
+#| fig-height: 1
+#| fig-align: "center"
+par(mar = c(0, 0, 0, 0))
+plot(x = seq(1:n_lights), y = rep(1, 4), col = "darkgoldenrod1", 
+     pch = 8, cex = 4, axes = TRUE, ann = FALSE, xlab = FALSE, ylab = FALSE)
+```
+
+## Other heading
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo 
+
+### Third
+
+inventore veritatis^[Thing] et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,^[Another thing] 
+
+qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+
+#### A 4th level heading
+
+qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+
+- At vero eos et accusamus et iusto 
+- odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
+- similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+- Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, 
+
+omnis dolor repellendus. 
+
+1. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae 
+2. sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, 
+3. ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+
+```{r}
+#| label: tbl-star-trek-characters
+#| tbl-cap: "Main Characters from Star Trek: Deep Space Nine"
+#| echo: false
+
+library(knitr)
+library(kableExtra)
+
+star_trek_chars <- data.frame(
+  Name = c("Benjamin Sisko", "Kira Nerys", "Odo", "Jadzia Dax", "Julian Bashir"),
+  Rank = c("Captain", "Colonel", "Constable", "Lieutenant", "Chief Medical Officer"),
+  Species = c("Human", "Bajoran", "Changeling", "Trill", "Human"),
+  Key_trait = c("Emissary of the Prophets", "Former resistance fighter", "Shapeshifter", "Joined with symbiont", "Genetically enhanced")
+)
+
+if (knitr::is_latex_output()) {
+  kable(star_trek_chars, format = "latex", booktabs = TRUE, align = c('l', 'l', 'l', 'l')) %>%
+    kable_styling(latex_options = c("striped", "hold_position"), full_width = FALSE)
+} else if (knitr::is_html_output()) {
+  kable(star_trek_chars, format = "html", align = c('l', 'l', 'l', 'l')) %>%
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = FALSE)
+} else {
+  kable(star_trek_chars, format = "pipe", align = c('l', 'l', 'l', 'l'))
+}
+```
+
+::: {.content-visible when-meta="endnotes"}
+```{=latex}
+\newpage
+\begingroup
+\singlespacing
+\parindent 0pt
+\parskip 2ex
+\def\enotesize{\normalsize}
+\theendnotes
+\endgroup
+\newpage
+```
+:::
